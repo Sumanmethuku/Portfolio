@@ -29,6 +29,29 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Suman Methuku",
+              "alternateName": "Suman",
+              "url": "https://sumanmethuku.vercel.app/",
+              "jobTitle": "Full Stack Web Developer",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Hyderabad",
+                "addressCountry": "India"
+              },
+              "sameAs": [
+                "https://github.com/Sumanmethuku",
+                "https://www.linkedin.com/in/suman-methuku",
+                "https://x.com/MethukuSuman"
+              ]
+            })
+          }}
+        />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <Navigation />
           <main className="max-w-7xl w-full mx-auto px-4 py-24 flex-1">

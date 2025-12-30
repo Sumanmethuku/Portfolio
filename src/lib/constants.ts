@@ -12,19 +12,26 @@ export const SITE_NAME = "Suman Methuku";
 export const SITE_TITLE = "Suman Methuku - Full Stack Web Developer";
 export const SITE_DESCRIPTION = "Suman Methuku - Full Stack Web Developer specializing in React, Next.js, and TypeScript";
 export const SITE_KEYWORDS = [
+  "Suman",
+  "Suman Portfolio",
+  "Suman Web Developer",
   "Suman Methuku",
-  "Full Stack Developer",
-  "React",
-  "Next.js",
+  "Suman Methuku Portfolio",
+  "Suman Methuku Hyderabad",
+  "Suman Methuku Web Developer",
+  "Suman Methuku Full Stack Developer",
+  "Suman Methuku Next.js",
+  "Full Stack Developer Portfolio",
+  "React Developer Hyderabad",
+  "Next.js Developer India",
   "TypeScript",
   "JavaScript",
   "Node.js",
-  "Express.js",
   "PostgreSQL",
   "MySQL",
   "Java",
-  "Web Developer",
-  "Frontend Developer"
+  "Modern Web Applications",
+  "Responsive Design"
 ];
 
 export const SITE_GITHUB_URL = "https://github.com/Sumanmethuku";

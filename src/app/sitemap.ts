@@ -1,26 +1,13 @@
 import type { MetadataRoute } from 'next'
+import { SITE_URL } from '@/lib/constants'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: 'https://sumanmethuku.vercel.app/',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://sumanmethuku.vercel.app/about',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://sumanmethuku.vercel.app/blogs',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://sumanmethuku.vercel.app/projects',
-      lastModified: new Date(),
-    },
-    {
-      url: 'https://sumanmethuku.vercel.app/contact',
-      lastModified: new Date(),
-    },
-  ]
+  const routes = ['', 'about', 'blogs', 'projects', 'contact'];
+
+  return routes.map((route) => ({
+    url: `${SITE_URL}${route}`,
+    lastModified: new Date(),
+    changeFrequency: route === '' ? 'monthly' : 'weekly',
+    priority: route === '' ? 1 : 0.8,
+  }));
 }
