@@ -3,7 +3,7 @@
 
 Welcome to my digital space! I'm Suman Methuku, a passionate full-stack developer based in Hyderabad, India. I craft elegant, performant, and user-centric web experiences, blending technical expertise with a keen eye for design.
 
-**Explore my portfolio: [sumanmethuku.com](https://www.sumanmethuku.com)**
+**Explore my portfolio: [sumanmethuku.vercel.app](https://sumanmethuku.vercel.app)**
 
 ## About Me
 
@@ -11,7 +11,7 @@ I believe in turning ideas into impactful web solutions. My journey in web devel
 
 My approach is collaborative and detail-oriented. I thrive in environments where I can contribute to meaningful projects and work alongside talented individuals. I'm not just a coder; I'm a problem-solver, a creative thinker, and a lifelong learner.
 
-![Portfolio Demo](public/demo.gif)
+![Portfolio Demo](public/demo.webp)
 
 ## What You'll Find Here
 
@@ -78,7 +78,7 @@ This project is built with Next.js. To get started locally:
 
 * **Next.js Documentation:** [nextjs.org/docs](https://nextjs.org/docs) - Dive into the features and API of Next.js.
 * **Learn Next.js:** [nextjs.org/learn](https://nextjs.org/learn) - An interactive tutorial for mastering Next.js.
-* **My Portfolio:** [sumanmethuku.com](https://www.sumanmethuku.com) - Explore my projects and learn more about my skills.
+* **My Portfolio:** [sumanmethuku.vercel.app](https://sumanmethuku.vercel.app) - Explore my projects and learn more about my skills.
 
 ## Deploy on Vercel
 

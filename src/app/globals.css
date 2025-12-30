@@ -113,71 +113,79 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
- @keyframes accordion-up {
-    from {
-      height: var(--radix-accordion-content-height);
-    }
-    to {
-      height: 0;
-    }
+@keyframes accordion-up {
+  from {
+    height: var(--radix-accordion-content-height);
   }
 
-  @keyframes accordion-down {
-    from {
-      height: 0;
-    }
-    to {
-      height: var(--radix-accordion-content-height);
-    }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes accordion-down {
+  from {
+    height: 0;
   }
 
-  @keyframes tree-view-content-down {
-    from {
-      height: 0;
-    }
-    to {
-      height: var(--height);
-    }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes tree-view-content-down {
+  from {
+    height: 0;
   }
 
-  @keyframes tree-view-content-up {
-    from {
-      height: var(--height);
-    }
-    to {
-      height: 0;
-    }
+  to {
+    height: var(--height);
+  }
+}
+
+@keyframes tree-view-content-up {
+  from {
+    height: var(--height);
   }
 
-  @keyframes caret-blink {
-    0%,
-    70%,
-    100% {
-      opacity: 1;
-    }
-    20%,
-    50% {
-      opacity: 0;
-    }
+  to {
+    height: 0;
+  }
+}
+
+@keyframes caret-blink {
+
+  0%,
+  70%,
+  100% {
+    opacity: 1;
   }
 
-  @keyframes marquee-left {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(calc(-100% - var(--gap)));
-    }
+  20%,
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes marquee-left {
+  from {
+    transform: translateX(0);
   }
 
-  @keyframes marquee-up {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(calc(-100% - var(--gap)));
-    }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
   }
+}
+
+@keyframes marquee-up {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+  }
+}
 
 
 
@@ -185,6 +193,7 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
   }
