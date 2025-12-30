@@ -11,7 +11,7 @@ I believe in turning ideas into impactful web solutions. My journey in web devel
 
 My approach is collaborative and detail-oriented. I thrive in environments where I can contribute to meaningful projects and work alongside talented individuals. I'm not just a coder; I'm a problem-solver, a creative thinker, and a lifelong learner.
 
-![Portfolio Demo](public/demo.webp)
+![Portfolio Demo](public/demo.png)
 
 ## What You'll Find Here
 
