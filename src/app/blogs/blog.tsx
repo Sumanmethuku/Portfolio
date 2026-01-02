@@ -21,16 +21,24 @@ const BLOG_POSTS = [
     readTime: "5 min read",
     tags: ["Career Advice", "Programming", "Web Development"]
   },
-  // Add more blog posts here as you write them
-  // {
-  //   id: 2,
-  //   title: "Your next blog title",
-  //   brief: "Brief description...",
-  //   url: "https://medium.com/@sumanmethuku01/your-post-url",
-  //   date: "Jan 1, 2025",
-  //   readTime: "4 min read",
-  //   tags: ["Tag1", "Tag2"]
-  // },
+  {
+    id: 2,
+    title: "Mastering Cache Types: Boost Your Application Performance and Scalability",
+    brief: "Ever wondered why some apps feel snappy while others lag? A robust caching strategy is usually the secret. Let's dive deep into the layers of caching, from Browser and CDN to Redis and Write patterns.",
+    url: "https://medium.com/@sumanmethuku01/mastering-cache-types-boost-your-application-performance-and-scalability-24d0d712b9d6",
+    date: "Jan 2, 2025",
+    readTime: "8 min read",
+    tags: ["Caching", "Backend", "Performance", "System Design"]
+  },
+  {
+    id: 3,
+    title: "The Simple Guide to Finding Freelance Clients",
+    brief: "Escaping the Upwork trap and finding high-paying clients directly isn't about luck—it's about systems. Learn how to pivot from 'Developer' to 'Solver' and build a direct pipeline of clients.",
+    url: "https://medium.com/@sumanmethuku01/the-simple-guide-to-finding-freelance-clients-1665287c5f6e",
+    date: "Jan 2, 2025",
+    readTime: "7 min read",
+    tags: ["Freelancing", "Career Guidance", "Client Acquisition"]
+  },
 ];
 
 export default function Blogs() {
